@@ -1,0 +1,130 @@
+.hamburger {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    height: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    cursor: pointer;
+    
+    &:hover {        
+        span {
+            background-color: $main-color;       
+        }
+    }    
+    span {
+        transition: all 0.6s;
+        display: block;
+        height: 3px;
+        background-color: #fff;
+        width: 30px;    
+    }
+    span.long {
+        width: 36px;
+    }
+        
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.6s;
+    &.active {
+        left: -0;
+        visibility: visible;
+        opacity: 1;
+    }
+    &__block {
+        position: relative;
+        width: 345px;
+        background-color: $main-color;
+        height: 100%;
+        transition: all .6s;
+        padding-left: 40px;
+        padding-top: 140px;
+        z-index: 10;
+    }
+    &__close {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
+        
+        svg path {
+            transition: all 0.6s;
+            &:hover {
+                fill: $second-color;
+            }
+        }
+
+    }
+    &__list {
+        list-style-type: none;
+        padding-left: 35px;        
+    }
+    &__link {
+        position: relative;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;          
+        margin-bottom: 15px;
+        &:before {
+            content: '';
+            position: absolute;
+            left: -35px;
+            top: 9px;
+            width: 15px;
+            height: 15px;
+            border-radius: 100%;
+            border: 1px solid #fff;
+            transition: all 0.6s;
+        } 
+        &:hover {
+            &:before {
+                background-color: $second-color;
+            }
+        }
+        a {
+            color: #FFFFFF;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: all 0.6s;
+            &:hover {
+                color: $second-color;
+            }
+        }
+    }
+    &__social {
+        position: absolute;
+        width: 105px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        bottom: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        svg path {  
+            transition: all 0.6s;          
+            &:hover {                
+                fill: $second-color;
+            }
+        }
+    }
+    &__overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0.50;
+    }
+}
