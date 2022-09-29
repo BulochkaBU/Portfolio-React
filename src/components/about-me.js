@@ -15,9 +15,10 @@ const AboutMe = () => {
                         <div className="title title_fz19 subheader__subtitle subheader__subtitle_about-me">Про меня</div>
                         <h2 className="title title_fz36 subheader__title subheader__title_about-me">Меня зовут Анастасия</h2>
                         <div className="subheader__divider subheader__divider_about-me"></div>
-                        <div className="about-me__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+                        <div className="about-me__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
                     </div>
-                    <div className="subgrid-container">
+                    {/* <div className="subgrid-container">
                         <div className="subgrid-elem">                        
                             <div className="subgrid-elem__circle">
                                 <img className="subgrid-elem__img" src={webDevelopment} alt="web_development"/>
@@ -45,6 +46,30 @@ const AboutMe = () => {
                             <div className="subgrid-elem__descr">
                                 <div className="subgrid-elem__title">Мобильная разработка</div>  
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div> */}
+
+                    <div class="skills__rating">
+                        <div class="skills__rating-item">
+                            <div class="titletitle_fz14 skills__rating-title">Создание сайтов</div>
+                            <div class="skills__rating-counter">90%</div>
+                            <div class="skills__rating-line">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="skills__rating-item">
+                            <div class="titletitle_fz14 skills__rating-title">Работа с данными</div>
+                            <div class="skills__rating-counter">80%</div>
+                            <div class="skills__rating-line">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="skills__rating-item">
+                            <div class="titletitle_fz14 skills__rating-title">Soft skills</div>
+                            <div class="skills__rating-counter">100%</div>
+                            <div class="skills__rating-line">
+                                <span></span>
                             </div>
                         </div>
                     </div>

@@ -55,3 +55,49 @@
         }
     }
 }
+
+.skills {
+    &__rating {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, auto));
+        grid-template-rows: repeat(2, minmax(70px, auto));
+        grid-auto-rows: minmax(70px, auto);
+        column-gap: 45px;
+        &-item {
+            display: grid;
+            grid-template-columns: 200px 38px;
+            grid-template-rows: 21px 14px;
+            justify-content: space-between;
+            row-gap: 20px;
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+            position: relative;
+            @include before-circle;
+            padding-left: 17px;
+            padding-top: 3px;
+        }
+        &-counter {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 21px;
+            color: #000000;
+        }
+        &-line {
+            grid-column: 1/3;
+            width: 312px;
+            height: 14px;
+            background-color: #E8E4DE;
+            border-radius: 4px;
+            span {
+                display: block;
+                height: 100%;
+                background-color: $main-color;
+                border-radius: 4px;
+            }
+        }
+    }
+}

@@ -11,7 +11,7 @@ const Menu = ({hamburger, onClickCloseMenu}) => {
                 <nav>
                     <ul className="menu__list">
                         <li className="menu__link"><a href="#about-me">ПРО меня</a></li>
-                        <li className="menu__link"><a href="#experience">Про ОПЫТ</a></li>
+                        <li className="menu__link"><a href="#my-experience">Про ОПЫТ</a></li>
                         <li className="menu__link"><a href="#skills">про НАВЫКИ</a></li>
                         <li className="menu__link"><a href="#works">про проекты</a></li>
                         <li className="menu__link"><a href="#contacts">про КОНТАКТЫ</a></li>

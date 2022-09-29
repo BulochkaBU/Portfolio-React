@@ -7,6 +7,7 @@ import Menu from './components/menu'
 import SidePanel from './components/sidepanel'
 import AboutMe from './components/about-me'
 import PageUp from './components/page-up'
+import MyExperience from './components/my-experience'
 
 function App() {
     const [hamburgerState, sethamburgerState] = useState(false)
@@ -66,6 +67,7 @@ function App() {
         <Menu hamburger={hamburgerState} onClickCloseMenu={onClickCloseMenu}/>
         <SidePanel colorChangeState={colorChangeState}/>
         <AboutMe/>
+        <MyExperience/>
         </>
         
     );
