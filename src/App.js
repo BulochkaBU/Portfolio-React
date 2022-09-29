@@ -1,12 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import './css/App.min.css'
 
 import Promo from './components/promo';
 import Menu from './components/menu'
+import SidePanel from './components/sidepanel'
+import AboutMe from './components/about-me'
+import PageUp from './components/page-up'
 
 function App() {
     const [hamburgerState, sethamburgerState] = useState(false)
+    const [pageUpState, setpageUpState] = useState(false)
+    const [colorChangeState, setcolorChangeState] = useState(false)
 
     const onClickHamburger = () => {
         sethamburgerState(!hamburgerState)
@@ -16,6 +21,26 @@ function App() {
         sethamburgerState(!hamburgerState)
     } 
 
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 600) {
+                setpageUpState(true);
+                setcolorChangeState(true);            
+            } else {
+                setpageUpState(false);
+                setcolorChangeState(false);
+            }  
+        })  
+    }, [pageUpState])
+
+
+    const onClickUp = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        })
+    }
 
     return (
         // <div className="App">
@@ -36,8 +61,11 @@ function App() {
         //   </header>
         // </div>
         <>
+        <PageUp pageUpState={pageUpState} onClickUp={onClickUp}/>
         <Promo onClickHamburger={onClickHamburger}/>
         <Menu hamburger={hamburgerState} onClickCloseMenu={onClickCloseMenu}/>
+        <SidePanel colorChangeState={colorChangeState}/>
+        <AboutMe/>
         </>
         
     );
