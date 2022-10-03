@@ -8,8 +8,11 @@ import SidePanel from './components/sidepanel'
 import AboutMe from './components/about-me'
 import PageUp from './components/page-up'
 import MyExperience from './components/my-experience'
+import data from './skills.json'
 
 function App() {
+    console.log(data.skills[1])
+
     const [hamburgerState, sethamburgerState] = useState(false)
     const [pageUpState, setpageUpState] = useState(false)
     const [colorChangeState, setcolorChangeState] = useState(false)

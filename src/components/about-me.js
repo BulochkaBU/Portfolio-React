@@ -1,9 +1,15 @@
 import mainPhoto from '../img/main-photo.jpg';
-import design from '../icons/about_me/design.svg';
-import webDevelopment from '../icons/about_me/web_development.svg';
-import mobileDevelopment from '../icons/about_me/mobile_dev.svg';
 
 const AboutMe = () => {
+
+    const counters = document.querySelectorAll('.skills__rating-counter')
+    const lines = document.querySelectorAll('.skills__rating-line span');
+
+    counters.forEach((item, i) => {
+    lines[i].style.width = item.innerHTML;
+    })
+
+
     return(
         <section className="about-me" id="about-me">
             <div className="container">
@@ -17,58 +23,34 @@ const AboutMe = () => {
                         <div className="subheader__divider subheader__divider_about-me"></div>
                         <div className="about-me__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
-                    </div>
-                    {/* <div className="subgrid-container">
-                        <div className="subgrid-elem">                        
-                            <div className="subgrid-elem__circle">
-                                <img className="subgrid-elem__img" src={webDevelopment} alt="web_development"/>
-                            </div>                                                
-                            <div className="subgrid-elem__descr">   
-                                <div className="subgrid-elem__title">Web-разработка</div>                           
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </div>
-                        </div>
-                        <div className="subgrid-elem">                        
-                            <div className="subgrid-elem__circle">
-                                <img className="subgrid-elem__img" src={design} alt="design"/>
-                            </div>  
-                                                
-                            <div className="subgrid-elem__descr">
-                                <div className="subgrid-elem__title">UI/UX design</div>  
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </div>
-                        </div>
-                        <div className="subgrid-elem">                        
-                            <div className="subgrid-elem__circle">
-                                <img className="subgrid-elem__img" src={mobileDevelopment} alt="mobile_development"/>
-                            </div>  
-                                                
-                            <div className="subgrid-elem__descr">
-                                <div className="subgrid-elem__title">Мобильная разработка</div>  
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </div>
-                        </div>
-                    </div> */}
+                    </div>                 
 
-                    <div class="skills__rating">
-                        <div class="skills__rating-item">
-                            <div class="titletitle_fz14 skills__rating-title">Создание сайтов</div>
-                            <div class="skills__rating-counter">90%</div>
-                            <div class="skills__rating-line">
+                    <div className="skills__rating">
+                        <div className="skills__rating-item">
+                            <div className="titletitle_fz14 skills__rating-title">Создание сайтов</div>
+                            <div className="skills__rating-counter">10%</div>
+                            <div className="skills__rating-line">
                                 <span></span>
                             </div>
                         </div>
-                        <div class="skills__rating-item">
-                            <div class="titletitle_fz14 skills__rating-title">Работа с данными</div>
-                            <div class="skills__rating-counter">80%</div>
-                            <div class="skills__rating-line">
+                        <div className="skills__rating-item">
+                            <div className="titletitle_fz14 skills__rating-title">Работа с данными</div>
+                            <div className="skills__rating-counter">80%</div>
+                            <div className="skills__rating-line">
                                 <span></span>
                             </div>
                         </div>
-                        <div class="skills__rating-item">
-                            <div class="titletitle_fz14 skills__rating-title">Soft skills</div>
-                            <div class="skills__rating-counter">100%</div>
-                            <div class="skills__rating-line">
+                        <div className="skills__rating-item">
+                            <div className="titletitle_fz14 skills__rating-title">Soft skills</div>
+                            <div className="skills__rating-counter">30%</div>
+                            <div className="skills__rating-line">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div className="skills__rating-item">
+                            <div className="titletitle_fz14 skills__rating-title">Soft skills</div>
+                            <div className="skills__rating-counter">50%</div>
+                            <div className="skills__rating-line">
                                 <span></span>
                             </div>
                         </div>

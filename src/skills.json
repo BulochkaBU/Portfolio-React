@@ -1,0 +1,57 @@
+
+{
+  "skills": [
+    {
+      "id": "35631128-2b5e-477f-a9d0-7a20ec58809f",
+      "name": "User30",
+      "description": "dcxfv",
+      "element": "wind"
+    },
+    {
+      "id": "170e6b65-0840-4b44-9083-522c588dfca0",
+      "name": "User30",
+      "description": "dsfg",
+      "element": "water"
+    },
+    {
+      "id": "752f97ed-bfec-43f5-9b0e-6dfd05a5d215",
+      "name": "Роман",
+      "description": "635165",
+      "element": "fire"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "label": "Все",
+      "name": "all",
+      "classNames": "btn btn-outline-dark active"
+    },
+    {
+      "id": "fire",
+      "label": "Огонь",
+      "name": "fire",
+      "classNames": "btn btn-danger"
+    },
+    {
+      "id": "water",
+      "label": "Вода",
+      "name": "water",
+      "classNames": "btn btn-primary"
+    },
+    {
+      "id": "wind",
+      "label": "Ветер",
+      "name": "wind",
+      "classNames": "btn btn-success"
+    },
+    {
+      "id": "earth",
+      "label": "Земля",
+      "name": "earth",
+      "classNames": "btn btn-secondary"
+    }
+  ]
+}
+
+

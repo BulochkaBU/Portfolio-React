@@ -24,6 +24,14 @@
                 fill: $main-color;
             }
         }
+        &_active {
+            svg path {
+                transition: all 0.6s;
+                &:hover {
+                    fill: #000;
+                }
+            }
+        }
     }
     &__text {
         height: 150px;

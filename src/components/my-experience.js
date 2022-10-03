@@ -1,3 +1,7 @@
+import university from '../icons/experience/university.svg'
+import courses from '../icons/experience/courses.svg'
+import work from '../icons/experience/work.png'
+
 const MyExperience = () => {
     return(
         <section className="my-experience" id="my-experience">
@@ -14,7 +18,7 @@ const MyExperience = () => {
                             <div className="my-experience__item">
                                 <div className="my-experience__item-head">
                                     <div className="my-experience__item-icon">
-                                        {/* <img src="icons/my-experience/university.svg" alt="university"> */}
+                                        <img src={university} alt="university"></img>
                                     </div>
                                     <h4 className="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
                                     <div className="my-experience__item-location">Диплом магистра | Москва (2014-2020)</div>
@@ -28,7 +32,7 @@ const MyExperience = () => {
                             <div className="my-experience__item">
                                 <div className="my-experience__item-head">
                                     <div className="my-experience__item-icon">
-                                        {/* <img src="icons/my-experience/courses.svg" alt="university"> */}
+                                        <img src={courses} alt="course"></img>
                                     </div>
                                     <h4 className="title title_fz14">Udemy</h4>
                                     <div className="my-experience__item-location">Курсы по Web-разработке </div>
@@ -47,7 +51,7 @@ const MyExperience = () => {
                             <div className="my-experience__item">
                                 <div className="my-experience__item-head">
                                     <div className="my-experience__item-icon">
-                                        {/* <img src="icons/my-experience/developer.svg" alt="university"> */}
+                                        <img src={work} alt="work"></img>
                                     </div>
                                     <h4 className="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
                                     <div className="my-experience__item-location">Диплом магистра | Москва (2014-2020)</div>
@@ -61,7 +65,7 @@ const MyExperience = () => {
                             <div className="my-experience__item">
                                 <div className="my-experience__item-head">
                                     <div className="my-experience__item-icon">
-                                        {/* <img src="icons/my-experience/designer.svg" alt="university"> */}
+                                        <img src={work} alt="work"></img>
                                     </div>
                                     <h4 className="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
                                     <div className="my-experience__item-location">Диплом магистра | Москва (2014-2020)</div>
@@ -75,7 +79,7 @@ const MyExperience = () => {
                             <div className="my-experience__item">
                                 <div className="my-experience__item-head">
                                     <div className="my-experience__item-icon">
-                                        {/* <img src="icons/my-experience/designer.svg" alt="university"> */}
+                                        <img src={work} alt="work"></img>
                                     </div>
                                     <h4 className="title title_fz14">МГТУ им. Н. Э. Баумана</h4>
                                     <div className="my-experience__item-location">Диплом магистра | Москва (2014-2020)</div>
