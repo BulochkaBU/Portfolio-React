@@ -1,0 +1,88 @@
+
+{
+  "skills": [
+    {
+      "id": "1",
+      "name": "HTML",
+      "description": "Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта",
+      "imageSkills": "./icons/skills/html5.svg"
+    },
+    {
+      "id": "2",
+      "name": "CSS",
+      "description": "Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!",
+      "imageSkills": "./icons/skills/css3.svg"
+    },
+    {
+      "id": "3",
+      "name": "Java Script",
+      "description": "Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое",
+      "imageSkills": "./icons/skills/js.svg"
+    },
+    {
+      "id": "4",
+      "name": "React",
+      "description": "Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели",
+      "imageSkills": "./icons/skills/react.svg"
+    },
+    {
+      "id": "5",
+      "name": "github",
+      "description": "Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта",
+      "imageSkills": "./icons/skills/github.svg"
+    },
+    {
+      "id": "6",
+      "name": "Django",
+      "description": "Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта",
+      "imageSkills": "./icons/skills/django.svg"
+    }
+  ],
+  "works": [
+    {
+      "id": "4",
+      "name": "heroes",
+      "imageWorks": "./img/works/heroes.jpg",
+      "classNameWorks": "works__item",
+      "link": "https://github.com/BulochkaBU/hero_admin_panel_template"
+    },
+    {
+      "id": "2",
+      "name": "pulse",
+      "imageWorks": "./img/works/pulse.jpg",
+      "classNameWorks": "works__item",
+      "link": "https://github.com/BulochkaBU/pulse"
+    },
+    {
+      "id": "3",
+      "name": "marvel",
+      "imageWorks": "./img/works/marvel.jpg",
+      "classNameWorks": "works__item horizontal",
+      "link": "https://github.com/BulochkaBU/marvel"
+    },
+    {
+      "id": "5",
+      "name": "epmloyees",
+      "imageWorks": "./img/works/employees.jpg",
+      "classNameWorks": "works__item vertical",
+      "link": "https://github.com/BulochkaBU/employees_react"
+    },    
+    {
+      "id": "1",
+      "name": "uber",
+      "imageWorks": "./img/works/uber.jpg",
+      "classNameWorks": "works__item",
+      "link": "https://github.com/BulochkaBU/Bootstrap_Uber"
+    },
+    {
+      "id": "6",
+      "name": "vacancy",
+      "imageWorks": "./img/works/vacancy.jpg",
+      "classNameWorks": "works__item",
+      "link": "https://github.com/BulochkaBU/Stepik_Vacancies_Django"
+    }
+    
+  ] 
+}
+
+

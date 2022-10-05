@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import './css/App.min.css'
 
@@ -8,10 +9,12 @@ import SidePanel from './components/sidepanel'
 import AboutMe from './components/about-me'
 import PageUp from './components/page-up'
 import MyExperience from './components/my-experience'
-import data from './skills.json'
+import Skills from './components/skills'
+import Works from './components/works'
+import Page404 from './components/404'
 
 function App() {
-    console.log(data.skills[1])
+
 
     const [hamburgerState, sethamburgerState] = useState(false)
     const [pageUpState, setpageUpState] = useState(false)
@@ -47,31 +50,23 @@ function App() {
     }
 
     return (
-        // <div className="App">
-        //   <header className="App-header">
-        //     {/* <img src={logo} className="App-logo" alt="logo" />
-        //     <p>
-        //       Edit <code>src/App.js</code> and save to reload.
-        //     </p>
-        //     <a
-        //       className="App-link"
-        //       href="https://reactjs.org"
-        //       target="_blank"
-        //       rel="noopener noreferrer"
-        //     >
-        //       Learn React
-        //     </a> */}
 
-        //   </header>
-        // </div>
-        <>
-        <PageUp pageUpState={pageUpState} onClickUp={onClickUp}/>
-        <Promo onClickHamburger={onClickHamburger}/>
-        <Menu hamburger={hamburgerState} onClickCloseMenu={onClickCloseMenu}/>
-        <SidePanel colorChangeState={colorChangeState}/>
-        <AboutMe/>
-        <MyExperience/>
-        </>
+        <Router>
+            <Routes>
+                <Route path = "/"  element={
+                    <React.Fragment>
+                        <PageUp pageUpState={pageUpState} onClickUp={onClickUp}/>
+                        <Promo onClickHamburger={onClickHamburger}/>
+                        <Menu hamburger={hamburgerState} onClickCloseMenu={onClickCloseMenu}/>
+                        <SidePanel colorChangeState={colorChangeState}/>
+                        <AboutMe/>
+                        <MyExperience/>
+                        <Skills/>
+                        <Works/>
+                    </React.Fragment>}/> 
+                <Route path = "*" element={<Page404/>}/>
+            </Routes>
+        </Router>
         
     );
 }

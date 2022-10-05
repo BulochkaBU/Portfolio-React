@@ -49,7 +49,7 @@ const AboutMe = () => {
                         </div>
                         <div className="skills__rating-item">
                             <div className="titletitle_fz14 skills__rating-title">Soft skills</div>
-                            <div className="skills__rating-counter">50%</div>
+                            <div className="skills__rating-counter">5%</div>
                             <div className="skills__rating-line">
                                 <span></span>
                             </div>

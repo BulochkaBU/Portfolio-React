@@ -6,7 +6,7 @@ const SidePanel = ({colorChangeState}) => {
     useEffect(() => {
         window.addEventListener("scroll", function() {
             if (document.documentElement.scrollTop >= 300) {    
-                setcolorSidePanel('#7fff00');                       
+                setcolorSidePanel('#6aff00');                       
             } else {        
                 setcolorSidePanel('#000');                
             }
