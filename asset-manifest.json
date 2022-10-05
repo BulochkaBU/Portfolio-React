@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.f57dd497.css",
-    "main.js": "/static/js/main.b7c3727b.js",
+    "main.css": "/static/css/main.8b39ba89.css",
+    "main.js": "/static/js/main.87bf5664.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/404.jpg": "/static/media/404.8c1d8b57f4ac65f763c2.jpg",
     "static/media/main-bg.jpg": "/static/media/main-bg.18de7402aa05bf7ecc29.jpg",
-    "static/media/main-photo.jpg": "/static/media/main-photo.7046f8f5d38bb43e4c10.jpg",
+    "static/media/main-photo.jpg": "/static/media/main-photo.0b613a6621265621fb00.jpg",
     "static/media/work.png": "/static/media/work.95a78d3f0f589f260a5f.png",
     "static/media/university.svg": "/static/media/university.029a36d8a8484c9eec4b912f77c5251e.svg",
     "index.html": "/index.html",
     "static/media/courses.svg": "/static/media/courses.d84c46a08fdbc55685ea42a3b109721f.svg",
-    "main.f57dd497.css.map": "/static/css/main.f57dd497.css.map",
-    "main.b7c3727b.js.map": "/static/js/main.b7c3727b.js.map",
+    "main.8b39ba89.css.map": "/static/css/main.8b39ba89.css.map",
+    "main.87bf5664.js.map": "/static/js/main.87bf5664.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f57dd497.css",
-    "static/js/main.b7c3727b.js"
+    "static/css/main.8b39ba89.css",
+    "static/js/main.87bf5664.js"
   ]
 }
