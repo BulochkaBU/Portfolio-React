@@ -53,7 +53,7 @@ function App() {
 
         <Router>
             <Routes>
-                <Route path = "/"  element={
+                <Route exact path = "/"  element={
                     <React.Fragment>
                         <PageUp pageUpState={pageUpState} onClickUp={onClickUp}/>
                         <Promo onClickHamburger={onClickHamburger}/>
