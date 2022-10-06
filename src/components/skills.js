@@ -1,6 +1,16 @@
 import dataSkills from '../dataBase.json'
+import 'animate.css';
+import WOW from 'wowjs';
+import { useEffect } from 'react';
 
 const Skills = () => {
+    useEffect(() => {
+        new WOW.WOW({
+          live: false
+        }).init();
+    }, [])
+
+
     return(
         <section className="skills" id="skills">
         <div className="container">
@@ -11,11 +21,11 @@ const Skills = () => {
                 {
                    dataSkills.skills.map(item => {
                         return(
-                            <div className="skills__item" key={item.id}>
+                            <div className="skills__item wow animate__animated animate__fadeIn"  data-wow-duration={item.durationForSkills} key={item.id}>
                                 <img src={item.imageSkills} alt={item.name} className="skills__icon"></img>
                                 <div className="skills__subtitle">{item.name}</div>
                                 <div className="skills__descr">{item.description}</div>
-                            </div>
+                            </div>                
                         )
                    }) 
                 }

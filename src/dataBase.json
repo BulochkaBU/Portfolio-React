@@ -3,36 +3,42 @@
   "skills": [
     {
       "id": "1",
+      "durationForSkills": "1s",
       "name": "HTML",
       "description": "Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта",
       "imageSkills": "./icons/skills/html5.svg"
     },
     {
       "id": "2",
+      "durationForSkills": "3s",
       "name": "CSS",
       "description": "Этот язык стилей позволяет мне создавать абсолютно любой внешний вид вашего сайта или приложения. Все ограничивается только вашей фантазией!",
       "imageSkills": "./icons/skills/css3.svg"
     },
     {
       "id": "3",
+      "durationForSkills": "5s",
       "name": "Java Script",
       "description": "Этот язык программирования позволяет оживить все что угодно: слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое",
       "imageSkills": "./icons/skills/js.svg"
     },
     {
       "id": "4",
+      "durationForSkills": "7s",
       "name": "React",
       "description": "Эта библиотека позволяет создавать web-приложения. Мы можем создать максимально интерактивный продукт именно под ваши цели",
       "imageSkills": "./icons/skills/react.svg"
     },
     {
       "id": "5",
+      "durationForSkills": "9s",
       "name": "github",
       "description": "Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта",
       "imageSkills": "./icons/skills/github.svg"
     },
     {
       "id": "6",
+      "durationForSkills": "11s",
       "name": "Django",
       "description": "Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта",
       "imageSkills": "./icons/skills/django.svg"
