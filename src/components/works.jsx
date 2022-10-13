@@ -1,3 +1,4 @@
+import React from "react";
 import dataWorks from "../dataBase.json";
 
 const Works = () => {

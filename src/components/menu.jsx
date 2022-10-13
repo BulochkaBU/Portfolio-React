@@ -1,3 +1,4 @@
+import React from "react";
 const Menu = ({ hamburger, onClickCloseMenu, social }) => {
   return (
     <div className={hamburger ? "menu active" : "menu"}>

@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import error404image from "../img/404.jpg";
 

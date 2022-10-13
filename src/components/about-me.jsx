@@ -1,3 +1,4 @@
+import React from "react";
 import mainPhoto from "../img/main-photo.jpg";
 import dataSkills from "../dataBase.json";
 

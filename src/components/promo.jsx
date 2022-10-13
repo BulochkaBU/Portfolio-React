@@ -1,3 +1,4 @@
+import React from "react";
 const Promo = ({ onClickHamburger }) => {
   return (
     <section className="promo">

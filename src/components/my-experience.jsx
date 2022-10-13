@@ -1,3 +1,4 @@
+import React from "react";
 import university from "../icons/experience/university.svg";
 import courses from "../icons/experience/courses.svg";
 import work from "../icons/experience/work.png";

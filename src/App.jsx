@@ -71,7 +71,7 @@ function App() {
           }
         />
         <Route
-          path="about-me"
+          path="/about-me"
           element={
             <>
               <AboutMe /> <PageBack />
@@ -79,7 +79,7 @@ function App() {
           }
         />
         <Route
-          path="my-experience"
+          path="/my-experience"
           element={
             <>
               <MyExperience /> <PageBack />
@@ -87,7 +87,7 @@ function App() {
           }
         />
         <Route
-          path="skills"
+          path="/skills"
           element={
             <>
               <Skills /> <PageBack />

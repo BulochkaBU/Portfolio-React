@@ -1,6 +1,6 @@
 import dataSkills from "../dataBase.json";
 import WOW from "wowjs";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
 const Skills = () => {
   useEffect(() => {
