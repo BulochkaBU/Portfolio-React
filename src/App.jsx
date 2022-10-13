@@ -95,7 +95,7 @@ function App() {
           }
         />
         <Route
-          path="works"
+          path="/works"
           element={
             <>
               <Works /> <PageBack />
