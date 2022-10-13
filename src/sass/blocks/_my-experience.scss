@@ -1,83 +1,80 @@
-.my-experience {   
-    padding-top: 120px;
-    &__wrapper {
-        padding: 60px 65px 0 65px;
-        display: grid;
-        grid-template-columns: repeat(2, 425px);
-        column-gap: 135px;
+.my-experience {
+  padding-top: 120px;
+  &__wrapper {
+    padding: 60px 65px 0 65px;
+    display: grid;
+    grid-template-columns: repeat(2, 425px);
+    column-gap: 135px;
+  }
+  &__column {
+    &-title {
+      position: relative;
+      padding-left: 35px;
+      &::before {
+        content: "";
+        position: absolute;
+        border-radius: 100%;
+        width: 15px;
+        height: 15px;
+        background-color: $main-color;
+        left: -7px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
     }
-    &__column {
-        &-title{
-            position: relative;
-            padding-left: 35px;
-            &::before {
-                content: '';
-                position: absolute;
-                border-radius: 100%;
-                width: 15px;
-                height: 15px;
-                background-color: $main-color;
-                left: -7px;
-                top: 50%;
-                transform: translateY(-50%);
-            }
-        }
-        ul {
-            list-style-type: none;
-            li {     
-                position: relative;
-                &::after {
-                    content: '';
-                    width: 1px;
-                    height: calc(100% + 16px);
-                    position: absolute;
-                    top: -16px;
-                    left: 0;
-                    background-color: #000;
-                }
-            }
-        }
-    }
-    &__item {
+    ul {
+      list-style-type: none;
+      li {
         position: relative;
-        &::before {
-            content: '';
-            width: 45px;
-            height: 1px;
-            position: absolute;
-            background-color: #000;
-            top: 52px;
+        &::after {
+          content: "";
+          width: 1px;
+          height: calc(100% + 16px);
+          position: absolute;
+          top: -16px;
+          left: 0;
+          background-color: #000;
         }
-        &-head {
-            padding: 35px 0 0 100px;
-            position: relative;
-
-        }
-        &-body {
-            padding-left: 45px;
-            margin-top: 12px;
-            font-size: 12px;
-            line-height: 18px;
-        }
-        &-icon {
-            position: absolute;
-            top: 35px;
-            left: 45px;
-            @include before-circle;
-            img {
-                // padding: 5px 0 0 17px;
-                position: absolute;
-                left: 15px;
-                top: 12px;
-                height: 25px;
-                width: 22px;
-            }
-        }
-        &-location {
-            font-size: 12px;
-            line-height: 4px;  
-        }
+      }
     }
-
-
+  }
+  &__item {
+    position: relative;
+    &::before {
+      content: "";
+      width: 45px;
+      height: 1px;
+      position: absolute;
+      background-color: #000;
+      top: 52px;
+    }
+    &-head {
+      padding: 35px 0 0 100px;
+      position: relative;
+    }
+    &-body {
+      padding-left: 45px;
+      margin-top: 12px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+    &-icon {
+      position: absolute;
+      top: 35px;
+      left: 45px;
+      @include before-circle;
+      img {
+        // padding: 5px 0 0 17px;
+        position: absolute;
+        left: 15px;
+        top: 12px;
+        height: 25px;
+        width: 22px;
+      }
+    }
+    &-location {
+      font-size: 12px;
+      line-height: 4px;
+    }
+  }
 }

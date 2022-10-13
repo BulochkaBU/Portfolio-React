@@ -1,38 +1,35 @@
-
 .promo {
-    min-height: 100vh;
-    position: relative;
-    background: url('../img/main-bg.jpg') no-repeat 50%/cover;
-    padding-top: 180px;
-    padding-left: 150px;
-    &__title {
-        width: 530px;
-        margin-top: 20px;
-    }
-    &__btns {
-        margin-top: 15px;
-        width: 230px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-    &__link {
-        color: #fff;
-        font-weight: bold;
-        transition: all 0.5s;
-        font-size: 14px;
-        &:hover {
-            text-decoration: none;
-            color: #fff;            
-        }
-
-        &_about-me {
-            &:hover {
-                font-size: 16px; 
-                color: $main-color;      
-            }            
-        }
+  min-height: 100vh;
+  position: relative;
+  background: url("../img/main-bg.jpg") no-repeat 50% / cover;
+  padding-top: 180px;
+  padding-left: 150px;
+  &__title {
+    width: 530px;
+    margin-top: 20px;
+  }
+  &__btns {
+    margin-top: 15px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__link {
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.5s;
+    font-size: 14px;
+    &:hover {
+      text-decoration: none;
+      color: #fff;
     }
 
+    &_about-me {
+      &:hover {
+        font-size: 16px;
+        color: $main-color;
+      }
+    }
+  }
 }

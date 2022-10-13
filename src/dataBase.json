@@ -86,9 +86,30 @@
       "imageWorks": "./img/works/vacancy.jpg",
       "classNameWorks": "works__item",
       "link": "https://github.com/BulochkaBU/Stepik_Vacancies_Django"
+    }    
+  ],
+  "rating": [
+    {
+      "id": "1",
+      "name": "Создание сайтов",
+      "counter": "10%"
+    },
+    {
+      "id": "2",
+      "name": "Работа с данными",
+      "counter": "90%"
+    },
+    {
+      "id": "3",
+      "name": "Soft skills",
+      "counter": "100%"
+    },
+    {
+      "id": "4",
+      "name": "Дизайн",
+      "counter": "5%"
     }
-    
-  ] 
+  ]
 }
 
 

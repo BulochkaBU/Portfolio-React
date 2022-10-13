@@ -1,0 +1,26 @@
+.page-404 {
+  img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+  p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  a {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+    color: $main-color;
+    &:hover {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}
