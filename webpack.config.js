@@ -20,12 +20,10 @@ const config = {
     devServer: {
         open: true,
         host: 'localhost',
+        historyApiFallback: true
     },
     resolve: {
         extensions: ['.jsx', '.js'],
-    },
-    devServer: {
-        historyApiFallback: true
     },
     plugins: [
         new HtmlWebpackPlugin({

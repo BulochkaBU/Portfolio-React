@@ -6,10 +6,8 @@ const SidePanel = ({ colorChangeState }) => {
   useEffect(() => {
     if (colorChangeState) {
       setcolorSidePanel("#6aff00");
-      console.log("green");
     } else {
       setcolorSidePanel("#000");
-      console.log("black");
     }
   }, [colorChangeState]);
 
