@@ -1,12 +1,12 @@
 .skills {
-  padding-top: 120px;
+  padding-top: 100px;
   &__wrapper {
     padding: 60px 10px 0 10px;
     display: grid;
-    grid-template-columns: repeat(4, minmax(270px, auto));
-    grid-template-rows: repeat(2, minmax(270px, auto));
+    grid-template-columns: repeat(4, minmax(230px, auto));
+    grid-template-rows: repeat(2, minmax(230px, auto));
     grid-auto-rows: minmax(270px, auto);
-    gap: 13px;
+    gap: 40px;
   }
   &__item {
     padding: 30px 30px 25px 30px;

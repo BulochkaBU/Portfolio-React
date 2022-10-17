@@ -11,13 +11,13 @@ const Works = () => {
         <h2 className="title title_fz36 subheader__title">Мои работы</h2>
         <div className="subheader__divider"></div>
         <div className="works__wrapper">
-          {dataWorks.works.map((item) => {
-            return (
+          {dataWorks.works.map((item) => 
+            (
               <a href={item.link} className={item.classNameWorks} key={item.id}>
                 <img src={item.imageWorks} alt={item.name} />
               </a>
-            );
-          })}
+            )
+          )}
         </div>
       </div>
     </section>

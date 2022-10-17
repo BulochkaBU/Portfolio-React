@@ -19,20 +19,7 @@ const AboutMe = () => {
             </h2>
             <div className="subheader__divider subheader__divider_about-me"></div>
             <div className="about-me__descr">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              <p>В 2020 году я решила поменять свою деятельность и войти в "IT". Изучала, какие бывают направления, инструменты, требования, распрашивала специалистов об их работе, пробовала на себя примерить различные профессии, и пришла к тому, что ближе мне разработка. Мне нравится видеть результат своих действий и создавать на чистой странице браузера красивые, анимированные и функциональные сайты.</p><p>Начала с языка пограммирования Python и его фреймворком Django, и последующий поиск стажировки/работы привел меня в компанию, где требовались молодые "зеленые" специалисты, правда, со знанием JavaScript и React. Окрыленная такой перспективой, я нашла новые курсы и погрузилась в учебу. К моменту, когда я их заканчивала, я переехала в другую страну, и о стажировке в той компании, пришлось забыть. Но это меня ни чуть не оставливает, наоборот, появилось дополнительное время, чтобы еще поднятнуть знания инструментов верстки HTML и CSS, чем я и занялась.</p><p>На сегодняшний день я готова к новым открытиям, новым возможностям и к новым испытаниям!</p>
             </div>
           </div>
 

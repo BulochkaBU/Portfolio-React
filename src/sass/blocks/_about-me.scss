@@ -1,9 +1,9 @@
 .about-me {
-  padding-top: 120px;
-  padding-left: 120px;
+  padding-top: 100px;
+  padding-left: 100px;
   .grid-container {
     display: grid;
-    grid-template: minmax(245px, auto) minmax(255px, auto) / 400px 670px;
+    grid-template: minmax(245px, auto) 210px / 400px 630px;
     grid-auto-rows: minmax(245px, auto);
     column-gap: 70px;
     row-gap: 40px;
@@ -24,10 +24,14 @@
   }
 
   &__descr {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 21px;
     color: #000000;
     margin-top: 20px;
+    p {
+      margin-bottom: 0;
+      text-indent: 25px;
+    }
   }
   .subgrid-elem {
     display: grid;
@@ -62,6 +66,7 @@
     grid-template-rows: repeat(2, minmax(70px, auto));
     grid-auto-rows: minmax(70px, auto);
     column-gap: 45px;
+    row-gap: 35px;
     &-item {
       display: grid;
       grid-template-columns: 200px 38px;
@@ -87,7 +92,7 @@
     }
     &-line {
       grid-column: 1/3;
-      width: 312px;
+      width: 292px;
       height: 14px;
       background-color: #e8e4de;
       border-radius: 4px;
