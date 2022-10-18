@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-// import './i18n';
+import './i18n';
 import "./css/App.min.css";
 import Promo from "./components/promo";
 import Menu from "./components/menu";

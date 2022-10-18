@@ -1,5 +1,14 @@
 import React from "react";
+import { withTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
+
 const Promo = ({ onClickHamburger }) => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+      i18n.changeLanguage(language);
+  };
+
   return (
     <section className="promo">
       <div className="hamburger" onClick={onClickHamburger}>
@@ -7,20 +16,22 @@ const Promo = ({ onClickHamburger }) => {
         <span className="long"></span>
         <span></span>
       </div>
+      <button className="btn btn_lang" onClick={() => changeLanguage("en")}>EN</button>
+      <button className="btn btn_lang active" onClick={() => changeLanguage("ru")}>RU</button>
       <div className="container">
         <div className="animate__animated animate__fadeInUp animate__slow">
           <div className="title title_fz19 title_fz15 subheader__subtitle subheader__subtitle_promo">
-            Меня зовут Анастасия Прудинская
+            {t('Меня зовут Анастасия Прудинская')}
           </div>
           <h1 className="title title_fz48 promo__title">
-            Я начинающий <br></br> React-разработчик
+            {t('Я начинающий')} <br></br> {t('React-разработчик')}
           </h1>
           <div className="promo__btns">
             <a href="#works" className="promo__link btn">
-              Портфолио
+              {t('Портфолио')}
             </a>
             <a href="#about-me" className="promo__link promo__link_about-me">
-              Про меня
+              {t('Про меня')}
             </a>
           </div>
         </div>
@@ -29,4 +40,4 @@ const Promo = ({ onClickHamburger }) => {
   );
 };
 
-export default Promo;
+export default withTranslation()(Promo);
