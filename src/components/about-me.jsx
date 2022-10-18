@@ -42,7 +42,7 @@ const AboutMe = () => {
           </div>
 
           <div className="skills__rating">
-            {dataSkills.rating.map(({id, name, counter}) => (
+            {dataSkills.rating.map(({ id, name, counter }) => (
               <div className="skills__rating-item" key={id}>
                 <div className="titletitle_fz14 skills__rating-title">
                   {t(name)}

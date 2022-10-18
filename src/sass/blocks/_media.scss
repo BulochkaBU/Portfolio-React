@@ -295,6 +295,11 @@
   .hamburger {
     right: 20px;
   }
+  .btn {
+    &_lang {
+      right: 20px;
+    }
+  }
   .menu {
     &__block {
       width: 250px;
