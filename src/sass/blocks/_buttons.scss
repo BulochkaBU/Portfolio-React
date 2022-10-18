@@ -12,8 +12,14 @@
   }
   &_lang {
     border: none;
-    // position: absolute;
-    // top: 60px;
-    // right: 100px;
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    padding: 8px 10px;
+    &:focus {
+      outline: none;
+    }
   }
 }

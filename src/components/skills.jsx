@@ -1,8 +1,11 @@
-import dataSkills from "../dataBase.json";
-import WOW from "wowjs";
+import { withTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import React, { useEffect } from "react";
+import WOW from "wowjs";
+import dataSkills from "../dataBase.json";
 
 const Skills = () => {
+  const { t } = useTranslation();
   useEffect(() => {
     new WOW.WOW({
       live: false,
@@ -13,10 +16,10 @@ const Skills = () => {
     <section className="skills" id="skills">
       <div className="container">
         <div className="title title_fz19 subheader__subtitle subheader__subtitle_skills">
-          Про навыки
+          {t("Про навыки")}
         </div>
         <h2 className="title title_fz36 subheader__title">
-          Что я использую в работе
+          {t("Что я использую в работе")}
         </h2>
         <div className="subheader__divider"></div>
         <div className="skills__wrapper">
@@ -32,7 +35,7 @@ const Skills = () => {
                 className="skills__icon"
               ></img>
               <div className="skills__subtitle">{item.name}</div>
-              <div className="skills__descr">{item.description}</div>
+              <div className="skills__descr">{t(item.description)}</div>
             </div>
           ))}
         </div>
@@ -41,4 +44,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default withTranslation()(Skills);

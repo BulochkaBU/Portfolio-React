@@ -1,5 +1,10 @@
+import { withTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import React from "react";
+
 const Menu = ({ hamburger, onClickCloseMenu, social }) => {
+  const { t } = useTranslation();
+
   return (
     <div className={hamburger ? "menu active" : "menu"}>
       <div className="menu__block">
@@ -20,16 +25,16 @@ const Menu = ({ hamburger, onClickCloseMenu, social }) => {
         <nav>
           <ul className="menu__list">
             <li className="menu__link">
-              <a href="#about-me">ПРО меня</a>
+              <a href="#about-me">{t("Про меня")}</a>
             </li>
             <li className="menu__link">
-              <a href="#my-experience">Про ОПЫТ</a>
+              <a href="#my-experience">{t("Про ОПЫТ")}</a>
             </li>
             <li className="menu__link">
-              <a href="#skills">про НАВЫКИ</a>
+              <a href="#skills">{t("про НАВЫКИ")}</a>
             </li>
             <li className="menu__link">
-              <a href="#works">про проекты</a>
+              <a href="#works">{t("про проекты")}</a>
             </li>
           </ul>
         </nav>
@@ -40,4 +45,4 @@ const Menu = ({ hamburger, onClickCloseMenu, social }) => {
   );
 };
 
-export default Menu;
+export default withTranslation()(Menu);

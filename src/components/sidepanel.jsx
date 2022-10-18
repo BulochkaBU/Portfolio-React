@@ -1,6 +1,9 @@
+import { withTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import React, { useState, useEffect } from "react";
 
 const SidePanel = ({ colorChangeState }) => {
+  const { t } = useTranslation();
   const [colorSidePanel, setcolorSidePanel] = useState("#000");
 
   useEffect(() => {
@@ -85,10 +88,10 @@ const SidePanel = ({ colorChangeState }) => {
         style={{ background: colorSidePanel }}
       ></div>
       <div className="sidepanel__text" style={{ color: colorSidePanel }}>
-        <span>Социальные сети</span>
+        <span>{t("Социальные сети")}</span>
       </div>
     </aside>
   );
 };
 
-export default SidePanel;
+export default withTranslation()(SidePanel);

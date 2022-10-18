@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import './i18n';
+import "./i18n";
 import "./css/App.min.css";
 import Promo from "./components/promo";
 import Menu from "./components/menu";
@@ -14,7 +14,6 @@ import Skills from "./components/skills";
 import Works from "./components/works";
 import Page404 from "./components/404";
 import Social from "./components/social";
-// import Text from './components/text'
 
 function App() {
   const [hamburgerState, sethamburgerState] = useState(false);
@@ -102,7 +101,7 @@ function App() {
             </>
           }
         />
-        <Route path="*" element={<Page404 />} />        
+        <Route path="*" element={<Page404 />} />
       </Routes>
     </Router>
   );

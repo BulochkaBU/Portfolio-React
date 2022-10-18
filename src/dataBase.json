@@ -10,45 +10,52 @@
     },
     {
       "id": "2",
-      "durationForSkills": "3s",
+      "durationForSkills": "2s",
       "name": "CSS",
       "description": "Cоздает любой внешний вид сайта или приложения.",
       "imageSkills": "./icons/skills/css3.svg"
     },
     {
       "id": "3",
-      "durationForSkills": "5s",
+      "durationForSkills": "3s",
       "name": "Java Script",
       "description": "Позволяет оживить все что угодно.",
       "imageSkills": "./icons/skills/js.svg"
     },
     {
       "id": "4",
-      "durationForSkills": "7s",
+      "durationForSkills": "4s",
       "name": "React",
       "description": "Позволяет создавать веб-приложения.",
       "imageSkills": "./icons/skills/react.svg"
     },
     {
       "id": "5",
-      "durationForSkills": "9s",
+      "durationForSkills": "5s",
       "name": "github",
       "description": "Позволяет следить за изменениями кода.",
       "imageSkills": "./icons/skills/github.svg"
     },
     {
       "id": "6",
-      "durationForSkills": "11s",
+      "durationForSkills": "6s",
       "name": "Python",
       "description": "Позволяет быстро проводить анализ данных.",
       "imageSkills": "./icons/skills/python.svg"
     },
     {
       "id": "7",
-      "durationForSkills": "13s",
+      "durationForSkills": "7s",
       "name": "Django",
       "description": "Полнофункциональный серверный веб-фреймворк.",
       "imageSkills": "./icons/skills/django.svg"
+    },
+    {
+      "id": "8",
+      "durationForSkills": "8s",
+      "name": "Docker",
+      "description": "Позволяет настроить окружение и запускать любые приложения",
+      "imageSkills": "./icons/skills/docker.svg"
     }
   ],
   "works": [
@@ -173,7 +180,7 @@
       "id": "3",
       "name": "Открытие Брокер",
       "location": "Специалист клиентского обслуживания (2014-2017)",
-      "descr": "Оформление брокерских документов, взаимодействие с контрагентами/агентами/сотрудниками регионов и ЦО, организация клиентских мероприятий, обучение персонала ",
+      "descr": "Оформление брокерских документов, взаимодействие с контрагентами/агентами/сотрудниками регионов и ЦО, организация клиентских мероприятий, обучение персонала",
       "image": "./icons/experience/work.png"
     },
     {
