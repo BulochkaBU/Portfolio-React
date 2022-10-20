@@ -1,6 +1,7 @@
 import { withTranslation } from "react-i18next";
 import { useTranslation } from "react-i18next";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Menu = ({ hamburger, onClickCloseMenu, social }) => {
   const { t } = useTranslation();
@@ -25,16 +26,16 @@ const Menu = ({ hamburger, onClickCloseMenu, social }) => {
         <nav>
           <ul className="menu__list">
             <li className="menu__link">
-              <a href="#about-me">{t("Про меня")}</a>
+              <Link to="about-me">{t("Про меня")}</Link>
             </li>
             <li className="menu__link">
-              <a href="#my-experience">{t("Про ОПЫТ")}</a>
+              <Link to="my-experience">{t("Про ОПЫТ")}</Link>
             </li>
             <li className="menu__link">
-              <a href="#skills">{t("про НАВЫКИ")}</a>
+              <Link to="skills">{t("про НАВЫКИ")}</Link>
             </li>
             <li className="menu__link">
-              <a href="#works">{t("про проекты")}</a>
+              <Link to="works">{t("про проекты")}</Link>
             </li>
           </ul>
         </nav>
