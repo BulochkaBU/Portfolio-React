@@ -62,3 +62,5 @@ module.exports = () => {
   }
   return config;
 };
+
+console.log(isProduction)
