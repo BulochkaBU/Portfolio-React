@@ -1,4 +1,4 @@
-name: Node.js/REACT Build CI
+name: Node.js/React Build CI
 
 on:
   push:
