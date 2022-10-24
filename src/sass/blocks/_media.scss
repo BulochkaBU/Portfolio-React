@@ -291,6 +291,11 @@
       font-size: 25px;
       line-height: 35px;
     }
+    &__link {
+      &_cv {
+        right: 20px;
+      }
+    }
   }
   .hamburger {
     right: 20px;

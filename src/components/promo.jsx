@@ -21,11 +21,19 @@ const Promo = ({ onClickHamburger }) => {
       <button
         className="btn btn_lang"
         onClick={
-          languageRu ? () => changeLanguage("ru") : () => changeLanguage("en")
+          languageRu ? () => changeLanguage("en") : () => changeLanguage("ru")
         }
       >
-        {languageRu ? "RU" : "EN"}
+        {languageRu ? "EN" : "RU"}
       </button>
+
+      <a
+        className="promo__link_cv btn"
+        href={languageRu ? "Резюме_Анастасия_Прудинская_(RUS).pdf" : "CV_Anastasia_Prudinskaya_(ENG)_.pdf"}
+        download
+      >
+        {languageRu ? "Резюме" : "CV"}
+      </a>
 
       <div className="container">
         <div className="animate__animated animate__fadeInUp animate__slow">

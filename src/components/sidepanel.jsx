@@ -39,7 +39,7 @@ const SidePanel = ({ colorChangeState }) => {
         </svg>
       </a>
       <a
-        href="https://www.linkedin.com/in/anastasiia-prudinskaia"
+        href="https://www.linkedin.com/in/anastasia-prudinskaya"
         target="_blank"
         rel="noreferrer"
         className={

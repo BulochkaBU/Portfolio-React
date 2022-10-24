@@ -1,10 +1,10 @@
 export const translationEn = {
-    "Меня зовут Анастасия Прудинская": "My name is Anastasiia Prudinskaia",
+    "Меня зовут Анастасия Прудинская": "My name is Anastasia Prudinskaya",
     "Я начинающий": "I am a begginer",
     "React-разработчик": "React-developer",
     "Портфолио": "Portfolio",
     "Про меня": "About me",
-    "Меня зовут Анастасия": "My name is Anastasiia",
+    "Меня зовут Анастасия": "My name is Anastasia",
     "В 2020 году я решила поменять свою деятельность и войти в 'IT'. Изучала, какие бывают направления, инструменты, требования, распрашивала специалистов об их работе, пробовала на себя примерить различные профессии, и пришла к тому, что ближе мне разработка. Мне нравится видеть результат своих действий и создавать на чистой странице браузера красивые, анимированные и функциональные сайты." : "In 2020, I decided to change my activity and enter 'IT'. I studied what directions, tools, requirements are, asked specialists about the'ir work, tried to try on various professions, and came to the conclusion that development is closer to me. I like to see the result of my actions and create beautiful, animated and functional websites on a clean browser page.",
     "Начала с языка пограммирования Python и его фреймворком Django, и последующий поиск стажировки/работы привел меня в компанию, где требовались молодые 'зеленые' специалисты, правда, со знанием JavaScript и React. Окрыленная такой перспективой, я нашла новые курсы и погрузилась в учебу. К моменту, когда я их заканчивала, я переехала в другую страну, и о стажировке в той компании, пришлось забыть. Но это меня ни чуть не оставливает, наоборот, появилось дополнительное время, чтобы еще поднятнуть знания инструментов верстки HTML и CSS, чем я и занялась." : "I started with the Python programming language and its Django framework, and the subsequent search for an internship / job led me to a company that needed young 'green' specialists, however, with knowledge of JavaScript and React. Inspired by this prospect, I found new courses and immersed myself in my studies. By the time I finished them, I moved to another country, and I had to forget about the internship at that company. But this does not stop me at all, on the contrary, there was extra time to further tighten the knowledge of HTML and CSS layout tools, which I did.",
     "На сегодняшний день я готова к новым открытиям, новым возможностям и к новым испытаниям!": "Today I am ready for new discoveries, new opportunities and new challenges!",
