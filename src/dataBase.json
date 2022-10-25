@@ -1,4 +1,3 @@
-
 {
   "skills": [
     {
@@ -60,7 +59,7 @@
   ],
   "works": [
     {
-      "id": "4",
+      "id": "1",
       "name": "heroes",
       "imageWorks": "./img/works/heroes.jpg",
       "classNameWorks": "works__item",
@@ -80,15 +79,16 @@
       "classNameWorks": "works__item horizontal",
       "link": "https://github.com/BulochkaBU/marvel"
     },
+
     {
       "id": "5",
       "name": "epmloyees",
       "imageWorks": "./img/works/employees.jpg",
       "classNameWorks": "works__item vertical",
       "link": "https://github.com/BulochkaBU/employees_react"
-    },    
+    },
     {
-      "id": "1",
+      "id": "4",
       "name": "uber",
       "imageWorks": "./img/works/uber.jpg",
       "classNameWorks": "works__item",
@@ -100,7 +100,7 @@
       "imageWorks": "./img/works/vacancy.jpg",
       "classNameWorks": "works__item",
       "link": "https://github.com/BulochkaBU/Stepik_Vacancies_Django"
-    }    
+    }
   ],
   "rating": [
     {
@@ -124,42 +124,42 @@
       "counter": "50%"
     }
   ],
-    "education": [
-      {
-        "id": "1",
-        "name": "Высшее образование - СПбГЭУ",
-        "location": "Диплом специалиста | Санкт-Петербург (2010-2016)",
-        "descr": "Санкт-Петербургский государственный экономический университет. Заочный факультет, кафедра Бухгалтерский учет, анализ и аудит.",
-        "image": "./icons/experience/university.svg"
-      },
-      {
-        "id": "2",
-        "name": "JavaScript + React - с нуля до результата",
-        "location": "Курсы Udemy (2021-2022)",
-        "descr": "Подробное изучение JavaScript, React.js, работа с npm, Babel, Webpack, Redux. Есть сертификат.",
-        "image": "./icons/experience/courses.svg"
-      },
-      {
-        "id": "3",
-        "name": "WEB-разработчик",
-        "location": "Курсы Udemy (2021-2022)",
-        "descr": "HTML5 и CSS3,  Bootstrap 5, технологии CSS Grid и FlexBox, использоваие препроцессоров Sass/Scss/Less, автоматизация процессов при помощи планировщика задач Gulp. Есть сертификат.",
-        "image": "./icons/experience/courses.svg"
-      },
-      {
-        "id": "4",
-        "name": "Django с нуля на практике",
-        "location": "Курсы Stepik (2020-2021)",
-        "descr": "Введение в Django, работа с шаблонами, основы SQL, ORM, cоздание моделей, фильтров, валидация, авторизация и регистрация. Есть сертификат.",
-        "image": "./icons/experience/courses.svg"
-      },
-      {
-        "id": "5",
-        "name": "Python: основы и применение",
-        "location": "Курсы Stepik (2020-2021)",
-        "descr": "Фундаментальные принципы языка Python. Есть сертификат.",
-        "image": "./icons/experience/courses.svg"
-      }
+  "education": [
+    {
+      "id": "1",
+      "name": "Высшее образование - СПбГЭУ",
+      "location": "Диплом специалиста | Санкт-Петербург (2010-2016)",
+      "descr": "Санкт-Петербургский государственный экономический университет. Заочный факультет, кафедра Бухгалтерский учет, анализ и аудит.",
+      "image": "./icons/experience/university.svg"
+    },
+    {
+      "id": "2",
+      "name": "JavaScript + React - с нуля до результата",
+      "location": "Курсы Udemy (2021-2022)",
+      "descr": "Подробное изучение JavaScript, React.js, работа с npm, Babel, Webpack, Redux. Есть сертификат.",
+      "image": "./icons/experience/courses.svg"
+    },
+    {
+      "id": "3",
+      "name": "WEB-разработчик",
+      "location": "Курсы Udemy (2021-2022)",
+      "descr": "HTML5 и CSS3,  Bootstrap 5, технологии CSS Grid и FlexBox, использоваие препроцессоров Sass/Scss/Less, автоматизация процессов при помощи планировщика задач Gulp. Есть сертификат.",
+      "image": "./icons/experience/courses.svg"
+    },
+    {
+      "id": "4",
+      "name": "Django с нуля на практике",
+      "location": "Курсы Stepik (2020-2021)",
+      "descr": "Введение в Django, работа с шаблонами, основы SQL, ORM, cоздание моделей, фильтров, валидация, авторизация и регистрация. Есть сертификат.",
+      "image": "./icons/experience/courses.svg"
+    },
+    {
+      "id": "5",
+      "name": "Python: основы и применение",
+      "location": "Курсы Stepik (2020-2021)",
+      "descr": "Фундаментальные принципы языка Python. Есть сертификат.",
+      "image": "./icons/experience/courses.svg"
+    }
   ],
   "experience": [
     {
@@ -199,5 +199,3 @@
     }
   ]
 }
-
-
