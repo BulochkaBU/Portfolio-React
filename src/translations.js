@@ -1,6 +1,6 @@
 export const translationEn = {
     "Меня зовут Анастасия Прудинская": "My name is Anastasia Prudinskaya",
-    "Я начинающий": "I am a begginer",
+    "Я начинающий": "I am a junior",
     "React-разработчик": "React-developer",
     "Портфолио": "Portfolio",
     "Про меня": "About me",
