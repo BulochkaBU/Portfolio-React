@@ -1,4 +1,4 @@
-# 🚀 Portfolio React project
+# 🚀 My portfolio on React
 [![Deploy React Application](https://github.com/BulochkaBU/Portfolio-React/actions/workflows/node.js.yml/badge.svg)](https://github.com/BulochkaBU/Portfolio-React/actions/workflows/node.js.yml)
 [![Made with - Love](https://img.shields.io/badge/Made_with-Love-red)](https://prudinskaya.com)  
 [![Made with GH Actions](https://img.shields.io/badge/CI-GitHub_Actions-blue?logo=github-actions&logoColor=white)](https://github.com/features/actions "Go to GitHub Actions homepage")
