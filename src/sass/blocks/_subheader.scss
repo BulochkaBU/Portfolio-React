@@ -16,7 +16,7 @@
       &:before {
         background-color: rgba(127, 255, 0, 0.8);
         left: 2%;
-        transform: translateX(-60%);
+        transform: translateX(-52%);
       }
     }
     &_about-me {
@@ -25,30 +25,25 @@
       margin-top: 8px;
       &:before {
         left: 2%;
-        transform: translateX(-37%);
+        transform: translateX(-20%);
       }
     }
     &_skills {
       &:before {
         left: 46%;
+        transform: translateX(-46%);
       }
     }
     &_my-experience {
       &:before {
-        transform: translateX(-58%);
+        left: 44%;
+        transform: translateX(-64%);
       }
     }
     &_works {
       &:before {
-        transform: translateX(-100%);
-      }
-    }
-    &_contacts {
-      text-align: left;
-      padding-left: 10px;
-      &:before {
-        left: 2%;
-        transform: translateX(-33%);
+        left: 46%;
+        transform: translateX(-88%);
       }
     }
   }
@@ -59,10 +54,6 @@
       text-align: left;
       margin: 10px 0;
     }
-    &_contacts {
-      text-align: left;
-      margin: 10px 0;
-    }
   }
   &__divider {
     width: 60px;
@@ -70,9 +61,6 @@
     background-color: $main-color;
     margin: 0 auto;
     &_about-me {
-      margin: auto 0;
-    }
-    &_contacts {
       margin: auto 0;
     }
   }

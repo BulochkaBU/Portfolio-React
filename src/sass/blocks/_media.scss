@@ -12,7 +12,10 @@
     padding-left: 70px;
     padding-top: 90px;
     .grid-container {
-      grid-template: minmax(245px, auto) minmax(255px, auto) / 400px 480px;
+      grid-template: minmax(245px, auto) minmax(255px, auto) / 400px minmax(
+          480px,
+          auto
+        );
       column-gap: 25px;
     }
     .subgrid-container {
@@ -30,6 +33,11 @@
       grid-template-columns: repeat(2, 370px);
       column-gap: 80px;
     }
+    &__item {
+      &-location {
+        line-height: 14px;
+      }
+    }
   }
   .skills {
     padding-left: 70px;
@@ -41,7 +49,7 @@
     &__rating {
       padding-right: 10px;
       padding-left: 10px;
-      grid-template-columns: repeat(auto-fit, 350px);
+      grid-template-columns: repeat(auto-fit, 290px);
       justify-content: space-between;
       column-gap: 0;
     }
@@ -83,14 +91,15 @@
 }
 
 @media (max-width: 992px) {
-  .page-up, .page-back {
+  .page-up,
+  .page-back {
     display: none;
   }
   .container {
     max-width: 720px;
   }
   .promo {
-    padding-left: 10px;
+    padding-left: 50px;
   }
   .sidepanel {
     display: none;
@@ -100,11 +109,6 @@
       &_about-me {
         margin: 10px 0;
         font-size: 26px;
-        line-height: 45px;
-      }
-      &_contacts {
-        margin: 10px 0;
-        font-size: 30px;
         line-height: 45px;
       }
     }
@@ -117,25 +121,25 @@
       }
       &_my-experience {
         &::before {
-          left: 46%;
+          left: 43%;
         }
       }
       &_skills {
         &:before {
-          left: 45%;
+          left: 47%;
         }
       }
       &_works {
         &:before {
-          left: 43%;
-          transform: translateX(-58%);
+          left: 44%;
+          transform: translateX(-50%);
         }
       }
     }
   }
   .about-me {
     padding-top: 70px;
-    padding-left: 10px;
+    padding-left: 50px;
     .grid-container {
       grid-template-columns: 350px auto;
       column-gap: 25px;

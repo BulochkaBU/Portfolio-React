@@ -1,8 +1,8 @@
 .about-me {
-  padding: 50px 0 50px 100px;
+  padding: 50px 50px 50px 100px;
   .grid-container {
     display: grid;
-    grid-template: minmax(245px, auto) 210px / 400px 630px;
+    grid-template: minmax(245px, auto) 210px / 400px minmax(630px, auto);
     grid-auto-rows: minmax(245px, auto);
     column-gap: 70px;
     row-gap: 40px;
@@ -80,8 +80,8 @@
       color: #000000;
       position: relative;
       @include before-circle;
-      padding-left: 17px;
-      padding-top: 3px;
+      padding-left: 7px;
+      padding-top: 2px;
     }
     &-counter {
       font-weight: 500;
@@ -91,7 +91,7 @@
     }
     &-line {
       grid-column: 1/3;
-      width: 292px;
+      width: 312px;
       height: 14px;
       background-color: #e8e4de;
       border-radius: 4px;

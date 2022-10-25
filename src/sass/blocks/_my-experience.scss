@@ -1,8 +1,7 @@
 .my-experience {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 50px 50px 100px;
   &__wrapper {
-    padding: 60px 65px 0 65px;
+    padding: 60px 165px 0 65px;
     display: grid;
     grid-template-columns: repeat(2, 425px);
     column-gap: 135px;
