@@ -29,7 +29,7 @@ const Promo = ({ onClickHamburger }) => {
 
       <a
         className="promo__link_cv btn"
-        href={languageRu ? "Резюме_Анастасия_Прудинская_(RUS).pdf" : "CV_Anastasia_Prudinskaya_(ENG)_.pdf"}
+        href={languageRu ? "CV_Anastasia_Prudinskaya_(RUS).pdf" : "CV_Anastasia_Prudinskaya_(ENG).pdf"}
         download
       >
         {languageRu ? "Резюме" : "CV"}
