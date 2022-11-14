@@ -348,6 +348,15 @@ template {
   font-size: 16px;
   color: #6aff00;
 }
+.promo__red {
+  background-color: red;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  top: 50px;
+  right: 150px;
+  z-index: 50;
+}
 
 .title {
   font-weight: bold;
@@ -1040,6 +1049,9 @@ template {
   .promo {
     padding-left: 70px;
   }
+  .promo__red {
+    display: none;
+  }
   .sidepanel {
     left: 25px;
   }
@@ -1321,13 +1333,16 @@ template {
     gap: 15px;
   }
 }
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .container {
     width: 100%;
     padding: 0 10px;
   }
   .promo {
     padding-top: 200px;
+  }
+  .promo__red {
+    display: block;
   }
   .promo__title {
     width: 240px;

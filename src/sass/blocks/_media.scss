@@ -4,6 +4,9 @@
   }
   .promo {
     padding-left: 70px;
+    &__red {
+      display: none;
+    }
   }
   .sidepanel {
     left: 25px;
@@ -282,13 +285,16 @@
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .container {
     width: 100%;
     padding: 0 10px;
   }
   .promo {
     padding-top: 200px;
+    &__red {
+      display: block;
+    }
     &__title {
       width: 240px;
       margin-top: 10px;
