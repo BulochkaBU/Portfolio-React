@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./i18n";
-import "./css/App.css";
+import "./css/App.css"
 import Promo from "./components/promo";
 import Menu from "./components/menu";
 import SidePanel from "./components/sidepanel";
