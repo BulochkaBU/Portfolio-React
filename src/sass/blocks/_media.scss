@@ -285,26 +285,26 @@
   }
 }
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .container {
     width: 100%;
     padding: 0 10px;
   }
   .promo {
     padding-top: 200px;
-    &__red {
-      display: block;
-    }
     &__title {
       width: 240px;
       margin-top: 10px;
-      font-size: 25px;
+      font-size: 23px;
       line-height: 35px;
     }
     &__link {
       &_cv {
-        top: 160px;
+        top: 140px;
+        width: 60px;
+        height: 60px;
         right: 20px;
+        padding: 18px 17px;
       }
     }
   }

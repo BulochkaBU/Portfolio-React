@@ -18,7 +18,7 @@ const Promo = ({ onClickHamburger }) => {
         <span className="long"></span>
         <span></span>
       </div>
-      <div className="promo__red"></div>
+      {/* <div className="promo__red"></div> */}
       <button
         className="btn btn_lang"
         onClick={

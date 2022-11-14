@@ -1333,7 +1333,7 @@ template {
     gap: 15px;
   }
 }
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .container {
     width: 100%;
     padding: 0 10px;
@@ -1341,18 +1341,18 @@ template {
   .promo {
     padding-top: 200px;
   }
-  .promo__red {
-    display: block;
-  }
   .promo__title {
     width: 240px;
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 35px;
   }
   .promo__link_cv {
-    top: 160px;
+    top: 140px;
+    width: 60px;
+    height: 60px;
     right: 20px;
+    padding: 18px 17px;
   }
   .hamburger {
     right: 20px;
