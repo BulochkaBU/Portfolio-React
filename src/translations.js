@@ -1,7 +1,7 @@
 export const translationEn = {
     "Меня зовут Анастасия Прудинская": "My name is Anastasia Prudinskaya",
     "Я начинающий": "I am a junior",
-    "React-разработчик": "React-developer",
+    "Frontend-разработчик": "Frontend-developer",
     "Портфолио": "Portfolio",
     "Про меня": "About me",
     "Меня зовут Анастасия": "My name is Anastasia",
@@ -63,7 +63,7 @@ export const translationEn = {
 export const translationRu = {
     "Меня зовут Анастасия Прудинская": "Меня зовут Анастасия Прудинская",
     "Я начинающий": "Я начинающий",
-    "React-разработчик": "React-разработчик",
+    "Frontend-разработчик": "Frontend-разработчик",
     "Портфолио": "Портфолио",
     "Про меня": "Про меня",
     "Меня зовут Анастасия": "Меня зовут Анастасия",
