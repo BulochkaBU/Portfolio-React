@@ -9,7 +9,7 @@
     margin-top: 20px;
   }
   &__btns {
-    margin-top: 15px;
+             margin-top: 15px;
     width: 230px;
     display: flex;
     justify-content: space-between;
@@ -32,22 +32,11 @@
         text-decoration: none;
       }
     }
-
     &_about-me {
       &:hover {
         font-size: 16px;
         color: $main-color;
       }
     }
-  }
-  &__red {
-
-    background-color: red;
-    position: absolute;
-    width: 80px;
-    height: 20px;
-    top: 50px;
-    right: 150px;
-    z-index: 50;
-  }
+  }  
 }

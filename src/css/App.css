@@ -348,15 +348,6 @@ template {
   font-size: 16px;
   color: #6aff00;
 }
-.promo__red {
-  background-color: red;
-  position: absolute;
-  width: 80px;
-  height: 20px;
-  top: 50px;
-  right: 150px;
-  z-index: 50;
-}
 
 .title {
   font-weight: bold;
@@ -1049,9 +1040,6 @@ template {
   .promo {
     padding-left: 70px;
   }
-  .promo__red {
-    display: none;
-  }
   .sidepanel {
     left: 25px;
   }
@@ -1424,7 +1412,7 @@ template {
     font-size: 15px;
   }
   .title_fz14 {
-    line-height: 8px;
+    line-height: 15px;
   }
   .my-experience__wrapper {
     padding-left: 10px;
