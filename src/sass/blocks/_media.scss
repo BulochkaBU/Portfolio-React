@@ -1,3 +1,9 @@
+@media (max-width: 1800px) {
+  .contacts {
+    display: none;
+  }
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -87,6 +93,9 @@
       grid-template-columns: repeat(auto-fit, 280px);
       justify-content: end;
     }
+  }
+  .contacts {
+    display: none;
   }
 }
 
@@ -281,6 +290,7 @@
     }
   }
   .contacts {
+    display: block;
     &__social {        
       width: 250px;        
     }

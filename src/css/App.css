@@ -972,6 +972,11 @@ template {
   fill: #6aff00;
 }
 
+@media (max-width: 1800px) {
+  .contacts {
+    display: none;
+  }
+}
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -1048,6 +1053,9 @@ template {
   .works__wrapper {
     grid-template-columns: repeat(auto-fit, 280px);
     justify-content: end;
+  }
+  .contacts {
+    display: none;
   }
 }
 @media (max-width: 992px) {
@@ -1213,6 +1221,9 @@ template {
   .works__wrapper {
     padding-top: 40px;
     gap: 15px;
+  }
+  .contacts {
+    display: block;
   }
   .contacts__social {
     width: 250px;
