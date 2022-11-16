@@ -7,7 +7,7 @@ const Contacts = () => {
     return(
       <section className="contacts">
         <div className="container">    
-          <div className="title title_fz19 subheader__subtitle subheader__subtitle_contacts">{t('Про контакты')}</div>
+          <div className="title title_fz19 subheader__subtitle subheader__subtitle_contacts">{t('про контакты')}</div>
             <div className="contacts__social">
               <a href="https://github.com/BulochkaBU" target="_blank" rel="noreferrer">
                 <svg
