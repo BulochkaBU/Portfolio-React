@@ -14,6 +14,7 @@ import Skills from "./components/skills";
 import Works from "./components/works";
 import Page404 from "./components/404";
 import Social from "./components/social";
+import Contacts from "./components/contacts";
 
 function App() {
   const [hamburgerState, sethamburgerState] = useState(false);
@@ -66,6 +67,7 @@ function App() {
               <MyExperience />
               <Skills />
               <Works />
+              <Contacts/>
             </>
           }
         />
@@ -98,6 +100,14 @@ function App() {
           element={
             <>
               <Works /> <PageBack />
+            </>
+          }
+        />
+        <Route
+          path="/contacts"
+          element={
+            <>
+              <Contacts /> <PageBack />
             </>
           }
         />

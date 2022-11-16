@@ -1,0 +1,16 @@
+.contacts {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    &__social {
+        margin: 50px auto;
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        svg path {
+            transition: all 0.6s;
+            &:hover {
+              fill: $main-color;
+            }
+          }
+    }
+}

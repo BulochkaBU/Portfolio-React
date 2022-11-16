@@ -280,6 +280,11 @@
       gap: 15px;
     }
   }
+  .contacts {
+    &__social {        
+      width: 300px;        
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -407,6 +412,11 @@
     padding-right: 0;
     &__rating {
       grid-template-columns: repeat(auto-fit, 270px);
+    }
+  }
+  .contacts {
+    &__social {        
+      width: 230px;        
     }
   }
 }
