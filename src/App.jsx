@@ -103,14 +103,6 @@ function App() {
             </>
           }
         />
-        <Route
-          path="/contacts"
-          element={
-            <>
-              <Contacts /> <PageBack />
-            </>
-          }
-        />
         <Route path="*" element={<Page404 />} />
       </Routes>
     </Router>

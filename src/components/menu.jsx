@@ -37,9 +37,6 @@ const Menu = ({ hamburger, onClickCloseMenu, social }) => {
             <li className="menu__link">
               <Link to="works">{t("про проекты")}</Link>
             </li>
-            <li className="menu__link">
-              <Link to="contacts">{t("про контакты")}</Link>
-            </li>
           </ul>
         </nav>
         {social}
