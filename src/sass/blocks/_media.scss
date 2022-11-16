@@ -282,7 +282,7 @@
   }
   .contacts {
     &__social {        
-      width: 300px;        
+      width: 250px;        
     }
   }
 }
@@ -375,7 +375,12 @@
       }
       &_works {
         &:before {
-          left: 42%;
+          left: 35%;
+        }
+      }
+      &_contacts {
+        &:before {
+          left: 33%;
         }
       }
     }
@@ -416,7 +421,7 @@
   }
   .contacts {
     &__social {        
-      width: 230px;        
+      width: 200px;        
     }
   }
 }
