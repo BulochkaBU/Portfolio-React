@@ -972,7 +972,7 @@ template {
   fill: #6aff00;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 2000px) {
   .contacts {
     display: none;
   }
