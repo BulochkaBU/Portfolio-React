@@ -163,6 +163,13 @@
   ],
   "experience": [
     {
+      "id": "025",
+      "name": "Little Knits Story",
+      "location": "Frontend разработчик (2022 - Н.В.)",
+      "descr": "Создание сайта про вязание крючком на React, ReduxToolKit, Bootstrap, QraphQL, адаптация для мобильных и десктопных устройств.",
+      "image": "./icons/experience/work.png"
+    },
+    {
       "id": "1",
       "name": "Фриланс бухгалтера, проектные работы",
       "location": "Бухгалтер (2018-2020)",

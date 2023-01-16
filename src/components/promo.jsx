@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const Promo = ({ onClickHamburger }) => {
   const { t, i18n } = useTranslation();
   const [languageRu, setLanguageRu] = useState(false);
-
+  console.log(process.env.NODE_ENV);
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
     setLanguageRu(!languageRu);
@@ -29,7 +29,11 @@ const Promo = ({ onClickHamburger }) => {
 
       <a
         className="promo__link_cv btn"
-        href={languageRu ? "CV_Anastasia_Prudinskaya_(RUS).pdf" : "CV_Anastasia_Prudinskaya_(ENG).pdf"}
+        href={
+          languageRu
+            ? "CV_Anastasia_Prudinskaya_(RUS).pdf"
+            : "CV_Anastasia_Prudinskaya_(ENG).pdf"
+        }
         download
       >
         {languageRu ? "Резюме" : "CV"}
