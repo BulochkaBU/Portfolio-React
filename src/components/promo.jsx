@@ -45,7 +45,7 @@ const Promo = ({ onClickHamburger }) => {
             {t("Меня зовут Анастасия Прудинская")}
           </div>
           <h1 className="title title_fz48 promo__title">
-            {t("Я начинающий")} <br></br> {t("Frontend-разработчик")}
+            {t("Frontend-разработчик")}
           </h1>
           <div className="promo__btns">
             <a href="#works" className="promo__link btn">
