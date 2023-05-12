@@ -1,14 +1,18 @@
 .contacts {
-    &__social {
-        margin: 50px auto;
-        width: 300px;
-        display: flex;
-        justify-content: space-between;
+  &__social {
+    margin: 50px auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    &-items {
+      padding: 10px;
+      cursor: pointer;
+      &:hover {
         svg path {
-            transition: all 0.6s;
-            &:hover {
-              fill: $main-color;
-            }
-          }
+          transition: all 0.6s;
+          fill: $main-color;
+        }
+      }
     }
+  }
 }

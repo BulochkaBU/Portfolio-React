@@ -35,7 +35,7 @@ const Social = () => {
           ></path>
         </svg>
       </a>
-      <a href="https://t.me/u1011" target="_blank" rel="noreferrer">
+      <a href="https://tlgg.ru/u1011" target="_blank" rel="noreferrer">
         <svg
           width="25"
           height="25"

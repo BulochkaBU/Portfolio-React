@@ -17,7 +17,7 @@ const SidePanel = ({ colorChangeState }) => {
   return (
     <aside className="sidepanel">
       <a
-        href="https://t.me/u1011"
+        href="https://tlgg.ru/u1011"
         target="_blank"
         rel="noreferrer"
         className={
