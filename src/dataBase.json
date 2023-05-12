@@ -96,10 +96,10 @@
     },
     {
       "id": "6",
-      "name": "vacancy",
-      "imageWorks": "./img/works/vacancy.jpg",
+      "name": "Little Knits Story",
+      "imageWorks": "./img/works/amigurumi.jpg",
       "classNameWorks": "works__item",
-      "link": "https://github.com/BulochkaBU/Stepik_Vacancies_Django"
+      "link": "https://github.com/littleknitsstory/frontend"
     }
   ],
   "rating": [
