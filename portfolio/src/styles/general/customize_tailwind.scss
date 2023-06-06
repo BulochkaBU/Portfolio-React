@@ -1,0 +1,20 @@
+@use "./variables" as *;
+
+.text-pink-600 {
+  color: #fe019a !important;
+}
+.hover\:text-pink-600:hover {
+  color: #fe019a !important;
+}
+
+.peer {
+  &:checked {
+    & ~ .peer-checked\:bg-pink-600 {
+      background-color: #fe019a !important;
+    }
+  }
+}
+
+.text-orange-600 {
+  color: #ff4f00 !important;
+}
