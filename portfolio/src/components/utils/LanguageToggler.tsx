@@ -38,7 +38,7 @@ export default function LanguageToggler() {
       <Link
         replace
         href={toggleLanguages()}
-        className="p-3 font-bold dark:text-white text-pink-600"
+        className="p-3 font-bold dark:text-white text-pink-600 text-xl "
       >
         {togglerText[currentLanguage]}
       </Link>

@@ -12,7 +12,7 @@ interface Props {
 export default function CardsMenu({ dictionary }: { dictionary: Props }) {
   return (
     <div
-      className={`${classes.cardGrid} flex justify-center gap-3 lg:gap-10 items-center mt-8 flex-col lg:flex-row`}
+      className={`${classes.cardGrid} flex justify-center gap-10  items-center mt-8 flex-col lg:flex-row`}
     >
       <Link className={`${classes.card} relative `} href="#">
         <div

@@ -14,7 +14,7 @@ export default async function Welcome({
   return (
     <div className="lg:container mx-auto animate__animated  animate__zoomInDown">
       <ScrollToTop />
-      <Features dictionary={dictionary} />
+      <Features dictionary={dictionary} lang={params.lang} />
       <CardsMenu dictionary={dictionary} />
       <About dictionary={dictionary} />
     </div>
