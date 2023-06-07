@@ -1,0 +1,23 @@
+.glowGreen {
+  transition: all 0.3s;
+  animation: glowGreenEffect 2s linear 1s infinite;
+}
+
+@keyframes glowGreenEffect {
+  from {
+    text-shadow: 0 0 30px #20dd23, 0 0 50px #20dd23, 0 0 100px #20dd23;
+    color: #fff;
+  }
+}
+
+.glowPink {
+  transition: all 0.3s;
+  animation: glowPinkEffect 2s linear 1s infinite;
+}
+
+@keyframes glowPinkEffect {
+  from {
+    text-shadow: 0 0 10px #fe019a, 0 0 40px #fe019a, 0 0 70px #fe019a;
+    color: #fff;
+  }
+}

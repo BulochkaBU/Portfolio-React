@@ -15,19 +15,19 @@ export default function NavBar({ dictionary }: { dictionary: Props }) {
         <div>
           <Link
             href="#about"
-            className="p-3 pr-5 font-bold  text-slate-800 dark:text-white  hover:text-pink-600"
+            className="p-2 sm:mr-5 font-bold text-slate-800 dark:text-white  hover:border border-pink-600 rounded-full hover:text-pink-600"
           >
             {dictionary.nav.about}
           </Link>
           <Link
             href="#works"
-            className="p-3 pr-5 font-bold text-slate-800 dark:text-white hover:text-pink-600"
+            className="p-2 sm:mr-5 font-bold text-slate-800 dark:text-white hover:border border-pink-600 rounded-full hover:text-pink-600"
           >
             {dictionary.nav.works}
           </Link>
           <Link
             href="#contacts"
-            className="p-3 pr-5 font-bold text-slate-800 dark:text-white hover:text-pink-600"
+            className="p-2 sm:mr-5 font-bold text-slate-800 dark:text-white hover:border border-pink-600 rounded-full hover:text-pink-600"
           >
             {dictionary.nav.contacts}
           </Link>
