@@ -16,7 +16,7 @@ export default async function Welcome({
       <ScrollToTop />
       <Features dictionary={dictionary} />
       <CardsMenu dictionary={dictionary} />
-      <About />
+      <About dictionary={dictionary} />
     </div>
   );
 }

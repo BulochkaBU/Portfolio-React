@@ -42,7 +42,7 @@ export default async function RootLayout({
 }) {
   return (
     <html lang={params.lang}>
-      <body className={`${montserrat.className} dark:bg-slate-800`}>
+      <body className={`${montserrat.className} dark:bg-slate-900`}>
         <div className="min-h-screen ">
           <main>{children}</main>
         </div>

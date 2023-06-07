@@ -3,11 +3,11 @@
     "title": "Анастасия Прудинская",
     "description": "Я жизнерадостный и умелый фронтенд-разработчик. Использую React, Next.js, TypeScript, RTK Query, SWR, HTML, CSS, SASS, Git, GitHub, Docker. Жизненный девиз - все возможно!"
   },
-  "nav": {
-    "about": "про меня",
-    "works": "работы",
-    "contacts": "контакты"
-  },
+
+  "about": "про меня",
+  "works": "работы",
+  "contacts": "контакты",
+
   "dark": "ночь",
   "light": "день",
   "seeMore": "узнать больше",

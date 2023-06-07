@@ -3,11 +3,11 @@
     "title": "Anastasiia Prudinskaya",
     "description": "I am a cheerful and adroit frontend developer. I use React, Next.js, TypeScript, RTK Query, SWR, HTML, CSS, SASS,  Git, GitHub, Docker. Life motto - everything is possible!"
   },
-  "nav": {
-    "about": "about",
-    "works": "works",
-    "contacts": "contacts"
-  },
+
+  "about": "about",
+  "works": "works",
+  "contacts": "contacts",
+
   "dark": "dark",
   "light": "light",
   "seeMore": "see more",

@@ -5,11 +5,9 @@ import phone from "../../assets/images/phone.jpg";
 import works from "../../assets/images/works.png";
 
 interface Props {
-  nav: {
-    about: string;
-    works: string;
-    contacts: string;
-  };
+  about: string;
+  works: string;
+  contacts: string;
 }
 export default function CardsMenu({ dictionary }: { dictionary: Props }) {
   return (
@@ -22,7 +20,7 @@ export default function CardsMenu({ dictionary }: { dictionary: Props }) {
           style={{ backgroundImage: `url(${me.src})` }}
         ></div>
         <h3 className="absolute left-3 bottom-2  text-white text-bold text-3xl p-2 hover:text-pink-600 ">
-          {dictionary.nav.about}
+          {dictionary.about}
         </h3>
       </Link>
       <Link className={`${classes.card} relative  `} href="#">
@@ -31,7 +29,7 @@ export default function CardsMenu({ dictionary }: { dictionary: Props }) {
           style={{ backgroundImage: `url(${works.src})` }}
         ></div>
         <h3 className="absolute left-3 bottom-2 text-white text-bold text-3xl p-2 hover:text-pink-600">
-          {dictionary.nav.works}
+          {dictionary.works}
         </h3>
       </Link>
       <Link className={`${classes.card} relative  `} href="#">
@@ -40,7 +38,7 @@ export default function CardsMenu({ dictionary }: { dictionary: Props }) {
           style={{ backgroundImage: `url(${phone.src})` }}
         ></div>
         <h3 className="absolute left-3 bottom-2 text-white text-bold text-3xl p-2 hover:text-pink-600">
-          {dictionary.nav.contacts}
+          {dictionary.contacts}
         </h3>
       </Link>
     </div>
