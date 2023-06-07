@@ -33,12 +33,12 @@ export default function LanguageToggler() {
   }
 
   return (
-    <div className=" hover:border border-orange-600 rounded-full">
+    <div className=" hover:border border-pink-600 rounded-full">
       {" "}
       <Link
         replace
         href={toggleLanguages()}
-        className="p-3 font-bold dark:text-white text-orange-600"
+        className="p-3 font-bold dark:text-white text-pink-600"
       >
         {togglerText[currentLanguage]}
       </Link>

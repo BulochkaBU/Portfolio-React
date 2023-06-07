@@ -8,7 +8,7 @@ interface Props {
 
 export default function Features({ dictionary }: { dictionary: Props }) {
   return (
-    <div className="flex items-center justify-around">
+    <div className="flex items-center justify-around my-8  ">
       <LanguageToggler />
       <DarkMode dictionary={dictionary} />
     </div>

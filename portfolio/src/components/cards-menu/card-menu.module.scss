@@ -1,0 +1,18 @@
+.card__background {
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.75) saturate(1.2) contrast(0.85);
+  transform-origin: center;
+  transform: scale(1) translateZ(0);
+  transition: filter 200ms linear, transform 200ms linear;
+}
+
+.card:hover .card__background {
+  transform: scale(1.05) translateZ(0);
+}
+
+.cardGrid:hover > .card:not(:hover) .card__background {
+  filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+}
