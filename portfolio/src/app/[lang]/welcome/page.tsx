@@ -4,6 +4,7 @@ import Features from "@/components/header/Features";
 import CardsMenu from "@/components/cards-menu/CardsMenu";
 import About from "@/components/about/About";
 import ScrollToTop from "@/components/utils/ScrollToTop";
+import Works from "@/components/works/works";
 
 export default async function Welcome({
   params,
@@ -17,6 +18,7 @@ export default async function Welcome({
       <Features dictionary={dictionary} lang={params.lang} />
       <CardsMenu dictionary={dictionary} />
       <About dictionary={dictionary} />
+      <Works />
     </div>
   );
 }
